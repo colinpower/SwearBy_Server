@@ -12,3 +12,7 @@ import functions from "firebase-functions";
 // ----- HTTPS -----
 import sendMagicLink from "./auth-sendMagicLink.js";
 export const send_magic_link = sendMagicLink;
+
+
+import createNewUser from "./auth-createNewUser.js";
+export const create_new_user = createNewUser;
